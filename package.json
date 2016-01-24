@@ -1,0 +1,24 @@
+{
+  "name": "repack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbuarque/repack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dbuarque/repack/issues"
+  },
+  "homepage": "https://github.com/dbuarque/repack#readme",
+  "dependencies": {
+    "inquirer": "^0.11.3",
+    "vorpal": "^1.6.1",
+    "vorpal-use": "^1.0.1"
+  }
+}
