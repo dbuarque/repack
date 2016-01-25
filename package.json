@@ -10,7 +10,7 @@
     "test": "./node_modules/.bin/mocha ./tests/* --compilers js:babel-register",
     "preversion": "npm test",
     "version": "npm run build && git add -A dist",
-    "postversion": "git push origin master && git push --tags && npm publish"
+    "postversion": "git push origin master && git push --tags"
   },
   "keywords": [
     "repack",
