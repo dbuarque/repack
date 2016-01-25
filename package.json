@@ -6,11 +6,11 @@
   "main": "index.js",
   "scripts": {
     "build": "./node_modules/.bin/babel src -d dist -s",
-    "start": "./node_modules/.bin/nodemon src/index.js --exec ./node_modules/.bin/babel-node --presets es2015,stage-0",
+    "start-dev": "./node_modules/.bin/nodemon src/index.js --exec ./node_modules/.bin/babel-node --presets es2015,stage-0",
     "test": "./node_modules/.bin/mocha ./tests/* --compilers js:babel-register",
     "preversion": "npm test",
     "version": "npm run build && git add -A dist",
-    "postversion": "git push origin master && git push --tags && rm -rf build/temp"
+    "postversion": "git push origin master && git push --tags && npm publish"
   },
   "keywords": [
     "repack",
