@@ -1,8 +1,8 @@
 /**
  * Created by dbuarque on 1/24/16.
  */
-var Questions = {
-    init: [
+var createQuestions = {
+    create: [
 
         {
             message: "Type the your awesome app name ?",
@@ -140,5 +140,3 @@ var Questions = {
     add:[],
     rm: [],
 };
-
-module.exports = Questions;
